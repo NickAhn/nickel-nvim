@@ -1,2 +1,2 @@
--- require("nickel")
+require("nickel")
 print("Hello")
