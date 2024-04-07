@@ -1,0 +1,2 @@
+-- require("nickel")
+print("Hello")
