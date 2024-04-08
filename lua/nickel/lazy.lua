@@ -17,7 +17,8 @@ local plugins = {
 	-- or                              , branch = '0.1.x',
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
-	{ "rose-pine/neovim", as = "rose-pine" }
+	{ "rose-pine/neovim", as = "rose-pine" },
+	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" }
 }
 local opts = {}
 
