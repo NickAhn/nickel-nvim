@@ -18,7 +18,8 @@ local plugins = {
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
 	{ "rose-pine/neovim", as = "rose-pine" },
-	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" }
+	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+    { "alexghergh/nvim-tmux-navigation" }
 }
 local opts = {}
 
