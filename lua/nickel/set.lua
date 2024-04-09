@@ -25,7 +25,3 @@ vim.opt.termguicolors = true
 
 vim.opt.colorcolumn = "80"
 
-vim.g.mapleader = " "
-
--- clipboard
-
