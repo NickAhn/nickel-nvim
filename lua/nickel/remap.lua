@@ -13,3 +13,5 @@ vim.keymap.set("n", "N", "Nnzzzv")
 -- paste without rewriting register
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
+-- replace word in current cursor in entire file
+vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
