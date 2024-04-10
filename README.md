@@ -7,15 +7,16 @@ Redoing my neovim configs from scratch.
 3. treesitter
 4. vim-tmux-navigator
 5. [lualine](https://github.com/nvim-lualine/lualine.nvim)
+6. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 ## Keybinds
 * `<leader>`: space
 * `<l>pv`: Explorer
 
 ### Telescope
-* `<l>pf`: search file
+* `<C-f>`: search file
+* `<C-g>`: search only staged files in git repository
 * `<l>pg`: search file using grep on word
-* `<C-p>`: search only staged files in git repository
 
 ## To add:
 ### Plugins

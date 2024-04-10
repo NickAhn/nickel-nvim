@@ -27,7 +27,9 @@ local plugins = {
     {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' }
-    }
+    },
+    -- indent lines
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
 }
 local opts = {}
 
