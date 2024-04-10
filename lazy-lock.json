@@ -1,4 +1,5 @@
 {
+  "dracula.nvim": { "branch": "main", "commit": "8d8bddb8814c3e7e62d80dda65a9876f97eb699c" },
   "indent-blankline.nvim": { "branch": "master", "commit": "3d08501caef2329aba5121b753e903904088f7e6" },
   "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
   "lualine.nvim": { "branch": "master", "commit": "0a5a66803c7407767b799067986b4dc3036e1983" },
@@ -8,5 +9,6 @@
   "nvim-web-devicons": { "branch": "master", "commit": "6e355632387a085f15a66ad68cf681c1d7374a04" },
   "plenary.nvim": { "branch": "master", "commit": "8aad4396840be7fc42896e3011751b7609ca4119" },
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
+  "tokyonight.nvim": { "branch": "main", "commit": "9bf9ec53d5e87b025e2404069b71e7ebdc3a13e5" },
   "vim-illuminate": { "branch": "master", "commit": "305bf07b919ac526deb5193280379e2f8b599926" }
 }
