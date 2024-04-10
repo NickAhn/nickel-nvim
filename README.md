@@ -5,6 +5,8 @@ Redoing my neovim configs from scratch.
 1. rose pine colorscheme
 2. telescope.nvim
 3. treesitter
+4. vim-tmux-navigator
+5. [lualine](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Keybinds
 * `<leader>`: space
@@ -16,6 +18,12 @@ Redoing my neovim configs from scratch.
 * `<C-p>`: search only staged files in git repository
 
 ## To add:
+### Plugins
 * tmux
-* fugitive
+* vim-fugitive
 * nerdtree
+* mbbill/undotree
+
+### Other
+* Add nvim keybinding <C-\\> to create a new tmux vertical pane in current directory
+* tmux: add `tmux save-buffer - | xclip -selection clipboard` for when copying
