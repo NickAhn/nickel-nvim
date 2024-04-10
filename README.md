@@ -8,6 +8,7 @@ Redoing my neovim configs from scratch.
 4. vim-tmux-navigator
 5. [lualine](https://github.com/nvim-lualine/lualine.nvim)
 6. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+7. [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 
 ## Keybinds
 * `<leader>`: space
@@ -28,3 +29,4 @@ Redoing my neovim configs from scratch.
 ### Other
 * Add nvim keybinding <C-\\> to create a new tmux vertical pane in current directory
 * tmux: add `tmux save-buffer - | xclip -selection clipboard` for when copying
+* [gitsigns](https://github.com/lewis6991/gitsigns.nvim)

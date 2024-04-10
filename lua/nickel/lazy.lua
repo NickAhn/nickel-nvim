@@ -29,7 +29,9 @@ local plugins = {
         dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
     -- indent lines
-    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+    { 'RRethy/vim-illuminate' }
+
     -- which key
     --{
     --  "folke/which-key.nvim",
@@ -44,7 +46,6 @@ local plugins = {
     --    -- refer to the configuration section below
     --  }
     --}
-
 }
 local opts = {}
 
