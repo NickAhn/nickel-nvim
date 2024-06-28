@@ -34,4 +34,4 @@ require("lazy").setup("nickel.plugins", {
     },
 })
 require('lualine').setup()
--- vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme dracula")
