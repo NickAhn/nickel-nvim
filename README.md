@@ -9,6 +9,7 @@ Redoing my neovim configs from scratch.
 5. [lualine](https://github.com/nvim-lualine/lualine.nvim)
 6. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 7. [vim-illuminate](https://github.com/RRethy/vim-illuminate)
+8. nvim-cmp
 
 ## Keybinds
 * `<leader>`: space
@@ -17,7 +18,17 @@ Redoing my neovim configs from scratch.
 ### Telescope
 * `<C-f>`: search file
 * `<C-g>`: search only staged files in git repository
+* `<C-j>`: prev item (while in insert mode)
+* `<C-k>`: next item (while in insert mode)
 * `<l>pg`: search file using grep on word
+
+### nvim-mp
+* `C-k`: next completion suggestion
+* `C-j`: prev completion suggestion
+* `C-f`: Scroll file preview down ("Forward")
+* `C-b`: Scroll file preview up ("Backwards")
+* `C-e`: close suggestions
+* `C-<leader>`: open suggestion
 
 ## To add:
 ### Plugins
