@@ -1,10 +1,14 @@
 return {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.6',
+    branch = "0.1.x",
+    -- tag = '0.1.6',
     dependencies = {
-        'nvim-lua/plenary.nvim'
+        'nvim-lua/plenary.nvim',
+        { "nvim-telescope/telescope-fzf-native.nvim", build="make" },
+        "nvim-tree/nvim-web-devicons",
     },
     config = function()
+        local telescope = require("telescope")
         local builtin = require('telescope.builtin')
 
         -- project find: look for all files --
@@ -15,5 +19,7 @@ return {
         vim.keymap.set('n', '<leader>pg', function()
             builtin.grep_string({ search = vim.fn.input("Grep > ") })
         end)
+
+        telescope.load_extension("fzf");
     end
 }
