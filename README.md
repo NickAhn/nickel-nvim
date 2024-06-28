@@ -18,6 +18,8 @@ Redoing my neovim configs from scratch.
 ### Telescope
 * `<C-f>`: search file
 * `<C-g>`: search only staged files in git repository
+* `<C-j>`: prev item (while in insert mode)
+* `<C-k>`: next item (while in insert mode)
 * `<l>pg`: search file using grep on word
 
 ### nvim-mp
