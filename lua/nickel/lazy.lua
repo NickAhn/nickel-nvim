@@ -28,7 +28,7 @@ vim.opt.rtp:prepend(lazypath)
     --}
 -- }
 
-require("lazy").setup("nickel.plugins", {
+require("lazy").setup({{import = "nickel.plugins"}, {import = "nickel.plugins.lsp"}}, {
     install = {
         colorscheme = { "dracula" }
     },
