@@ -28,6 +28,10 @@ vim.opt.rtp:prepend(lazypath)
     --}
 -- }
 
-require("lazy").setup("nickel.plugins")
+require("lazy").setup("nickel.plugins", {
+    install = {
+        colorscheme = { "dracula" }
+    },
+})
 require('lualine').setup()
-vim.cmd("colorscheme dracula")
+-- vim.cmd("colorscheme dracula")
