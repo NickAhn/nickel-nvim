@@ -10,6 +10,7 @@ Redoing my neovim configs from scratch.
 6. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 7. [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 8. nvim-cmp
+9. mason-lsp
 
 ## Keybinds
 * `<leader>`: space
@@ -32,12 +33,9 @@ Redoing my neovim configs from scratch.
 
 ## To add:
 ### Plugins
-* tmux
 * vim-fugitive
 * nerdtree
 * mbbill/undotree
 
 ### Other
-* Add nvim keybinding <C-\\> to create a new tmux vertical pane in current directory
-* tmux: add `tmux save-buffer - | xclip -selection clipboard` for when copying
 * [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
