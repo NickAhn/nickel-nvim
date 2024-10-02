@@ -134,7 +134,7 @@ return {
 
             ["gopls"] = function()
                 -- configure go server
-                lspconfig["pyright"].setup({
+                lspconfig["gopls"].setup({
                     capabilities = capabilities,
                     on_attach = on_attach,
                 })
@@ -142,7 +142,7 @@ return {
 
             ["dockerls"] = function ()
             -- configure docker server
-            lspconfig["pyright"].setup({
+            lspconfig["dockerls"].setup({
                 capabilities = capabilities,
                 on_attach = on_attach,
             })

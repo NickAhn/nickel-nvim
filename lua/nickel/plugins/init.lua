@@ -4,8 +4,9 @@ return {
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 
     -- statusline
-    { 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } }, 
+    { 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
 
+    -- terraform lsp
     {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
